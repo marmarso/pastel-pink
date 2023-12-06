@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+nav{
+    padding: 5px;
+    position: relative;
+    background-color:#fadfea5c;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav ul li{
+    display: inline-flex;
+    padding: 10px 30px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: #E981A4;
+}
+
+nav ul li:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #E981A4;
+}
+
+/* HEADER */
+
+header{
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+}
+
+header h1 , header h2{
+    color: #E981A4;
+    text-align: center;
+}
+
+header h1{
+    font-size: 70px;
+}
+
+header h2{
+    font-size: 40px;
+    font-family: 'Brittany Signature';
+}
+
+/* INTRO */
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6% 10%;
+    background-color:#fee4ed;
+}
+
+.home-intro{
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f6b4ca;
+    height: 400px;
+}
+
+.home-intro h2{
+    color: white;
+    line-height: 1.5;
+}
+
+.home-intro a{
+    
+    text-decoration: none;
+    color: white;
+    border: white solid 1px;
+    padding: 10px;
+}
+
+.home-intro a:hover{
+    color: #E981A4;
+    background-color: white;
+}
+
+.home-intro h2 , .home-intro a{
+    margin: 40px 20px;
+}
+
+.home-intro-img img{
+    max-width: 100%;
+    width: 470px;
+    height: auto;
+}
+
+/* ABOUT */
+
+.home-about{
+    height: 500px;
+    padding: 8% 5%;
+    background-color: #fee4ed;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home-about img{
+    width: 280px;
+    padding: 2%;
+}
+
+.home-about h3{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    color: #ba6f88;
+}
+
+.home-about-right{
+    margin: 0 3%;
+}
+
+.home-about h2{
+    color: #ba6f88;
+    padding: 10px;
+}
+
+.cursive{
+    font-family: 'Brittany Signature';
+    font-weight: lighter;
+}
+
+.home-about ul{
+    margin: 30px;
+    color: #ba6f88;
+    font-style: italic;
+}
+
+.home-about ul li{
+    padding: 10px;
+}
+
+.home-about-right a{
+    text-decoration: none;
+    color: #ba6f88;
+    border: #ba6f88 solid 1px;
+    padding: 10px;
+    margin-left: 6%;
+}
+
+.home-about-right a:hover{
+    background-color: white;
+}
+
+/* ABOUT YOU */
+
+.home-aboutyou{
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.home-aboutyou img{
+    width: 500px;
+}
+
+.home-aboutyou-right{
+    background-color: #f6b4ca;
+    width: 100%;
+    padding: 40px;
+    color: white;
+}
+
+.home-aboutyou-right h2{
+    font-size: 35px;
+}
+
+.home-aboutyou-right ul{
+    padding: 30px 0;
+}
+
+.home-aboutyou-right ul li{
+    padding: 5px;
+}
+
+.home-aboutyou-right a{
+    text-decoration: none;
+    color: white;
+    border: white solid 1px;
+    padding: 10px;
+}
+
+.home-aboutyou-right a:hover{
+    background-color: white;
+    color: #ba6f88;
+}
+
+/* GUIDE */
+
+.home-guide{
+    background-color: #fee4ed;
+    padding: 40px;
+    text-align: center;
+    color: #ba6f88;
+}
+
+.home-guide h3{
+    padding: 20px;
+}
+
+form{
+    padding: 20px;
+}
+
+.input-field{
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+}
+
+button{
+    padding: 10px 20px;
+    color: #ba6f88;
+    background-color: white;
+}
+
+/* FOOTER */
+
+.home-footer{
+    height: 50px;
+}
+
+
+
+
+/* RESPONSIVE */
+
+
+/* md */
+@media (max-width: 768px) {
+
+    }
+
+}
+
+/* sm */
+@media (max-width: 640px) {
+
+}
+
+/* xs */
+@media (max-width: 475px) {
+
+}
+
+@media (max-width: 1440px){
+    
+}
+
+
